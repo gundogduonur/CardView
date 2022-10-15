@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack
         {
-            Image("watch")
+            Image("dev")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
@@ -23,11 +23,11 @@ struct ContentView: View {
                     Text("APPLE")
                         .font(.headline)
                         .foregroundColor(.secondary)
-                    Text("watchOS 9 new features")
+                    Text("Apple introduces Ask Apple for developers")
                         .font(.title)
                         .foregroundColor(.primary)
                         .fontWeight(.black)
-                    Text("September 12, 2022")
+                    Text("October 11, 2022")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
